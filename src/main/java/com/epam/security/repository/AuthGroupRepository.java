@@ -1,5 +1,6 @@
-package com.epam.security.auth;
+package com.epam.security.repository;
 
+import com.epam.security.auth.AuthGroup;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

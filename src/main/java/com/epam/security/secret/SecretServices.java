@@ -1,5 +1,6 @@
 package com.epam.security.secret;
 
+import com.epam.security.model.Secret;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -21,12 +21,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
         return slr;
     }
 
-
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler();
-    }
-
     @Bean
     public LocaleChangeInterceptor localeChangeInterceptor() {
         LocaleChangeInterceptor lci = new LocaleChangeInterceptor();

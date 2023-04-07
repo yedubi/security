@@ -1,4 +1,4 @@
-package com.epam.security.auth;
+package com.epam.security.model;
 
 import lombok.Data;
 

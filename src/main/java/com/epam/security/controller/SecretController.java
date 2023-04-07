@@ -1,6 +1,6 @@
 package com.epam.security.controller;
 
-import com.epam.security.secret.Secret;
+import com.epam.security.model.Secret;
 import com.epam.security.secret.SecretServices;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

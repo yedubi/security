@@ -1,4 +1,4 @@
-package com.epam.security.secret;
+package com.epam.security.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

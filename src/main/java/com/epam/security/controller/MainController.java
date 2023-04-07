@@ -1,6 +1,6 @@
 package com.epam.security.controller;
 
-import com.epam.security.auth.LoginAttemptService;
+import com.epam.security.services.LoginAttemptService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

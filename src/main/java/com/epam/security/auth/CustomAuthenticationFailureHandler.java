@@ -1,5 +1,6 @@
 package com.epam.security.auth;
 
+import com.epam.security.services.LoginAttemptService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;

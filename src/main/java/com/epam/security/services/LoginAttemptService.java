@@ -1,4 +1,4 @@
-package com.epam.security.auth;
+package com.epam.security.services;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
