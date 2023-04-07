@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Providers - Submit a Secret</title>
+</head>
+<body>
+<h1>Submit a Secret</h1>
+<form method="post" th:action="@{/secret}">
+    <label for="text">Secret Text:</label><br>
+    <textarea id="text" name="text" rows="5" cols="50"></textarea><br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
